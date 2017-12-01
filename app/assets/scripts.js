@@ -1,7 +1,8 @@
 (function() {
     
     function login(callback) {
-        var CLIENT_ID = '6b284830006843e7ae7b170725715aed';
+        var CLIENT_ID = 'ecee6ce1765847adb5339f63c1528490';
+        // var CLIENT_ID = '6b284830006843e7ae7b170725715aed';
         var REDIRECT_URI = 'http://jmperezperez.com/spotify-oauth-jsfiddle-proxy/';
         function getLoginURL(scopes) {
             return 'https://accounts.spotify.com/authorize?client_id=' + CLIENT_ID +
